@@ -1,0 +1,27 @@
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: #0c0c1d;
+    color: lightgrey;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    height: 100vh;
+    //permet de centrer l'écran au centre de la section lors ce qu'on arrive dessus
+    scroll-snap-align: center; 
+}
