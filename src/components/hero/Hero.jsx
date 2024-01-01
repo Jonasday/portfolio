@@ -60,7 +60,7 @@ export function Hero() {
             Développeur Web & Web Mobile
         </motion.div>
         <div className="imageContainer">
-            <img src="/hero.png" alt="" />
+            <img src="/laptop.png" alt="" />
         </div> 
     </div>
 }

@@ -13,7 +13,7 @@ export function Navbar () {
                     animate={{opacity:1, scale:1}}
                     transition={{duration:1}}
                 >
-                JONAS DAY
+                PORTFOLIO
                 </motion.span>
                 <div className="social">
                     <a href="#"><img src="/facebook.png" alt="" /></a>

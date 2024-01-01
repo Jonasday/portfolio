@@ -30,8 +30,7 @@ const items = [
     "Homepage",
     "Services",
     "Portfolio",
-    "Contact",
-    "About",
+    "Contact"
 ]
 
 
