@@ -25,3 +25,21 @@ section {
     //permet de centrer l'écran au centre de la section lors ce qu'on arrive dessus
     scroll-snap-align: center; 
 }
+
+@mixin mobile {
+    @media (max-width: 738px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (max-width: 1388px) {
+        @content;
+    }
+}

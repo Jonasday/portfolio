@@ -14,7 +14,7 @@ function App () {
       <Navbar />
       <Hero />
     </section>
-    <section id="Services">
+    {/* <section id="Services">
       <Parallax type="services" />
     </section>
     <section>
@@ -26,8 +26,8 @@ function App () {
     <Portfolio />
     <section id="Contact">
       <Contact />
-    </section>
-  </div>;
+</section>*/}
+  </div> 
 }
 
 export default App;
